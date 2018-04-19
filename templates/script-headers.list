@@ -1,0 +1,202 @@
+# Script to turn lead into gold
+# Copyright (C) 2009 Joe Q Hacker - All Rights Reserved
+# Permission to copy and modify is granted under the foo license
+# Last revised 1/1/2009
+
+#######################################################################
+
+#!/bin/ksh
+#================================================================
+# HEADER
+#================================================================
+#% SYNOPSIS
+#+    ${SCRIPT_NAME} [-hv] [-o[file]] args ...
+#%
+#% DESCRIPTION
+#%    This is a script template
+#%    to start any good shell script.
+#%
+#% OPTIONS
+#%    -o [file], --output=[file]    Set log file (default=/dev/null)
+#%                                  use DEFAULT keyword to autoname file
+#%                                  The default value is /dev/null.
+#%    -t, --timelog                 Add timestamp to log ("+%y/%m/%d@%H:%M:%S")
+#%    -x, --ignorelock              Ignore if lock file exists
+#%    -h, --help                    Print this help
+#%    -v, --version                 Print script information
+#%
+#% EXAMPLES
+#%    ${SCRIPT_NAME} -o DEFAULT arg1 arg2
+#%
+#================================================================
+#- IMPLEMENTATION
+#-    version         ${SCRIPT_NAME} (www.uxora.com) 0.0.4
+#-    author          Michel VONGVILAY
+#-    copyright       Copyright (c) http://www.uxora.com
+#-    license         GNU General Public License
+#-    script_id       12345
+#-
+#================================================================
+#  HISTORY
+#     2015/03/01 : mvongvilay : Script creation
+#     2015/04/01 : mvongvilay : Add long options and improvements
+# 
+#================================================================
+#  DEBUG OPTION
+#    set -n  # Uncomment to check your syntax, without execution.
+#    set -x  # Uncomment to debug this shell script
+#
+#================================================================
+# END_OF_HEADER
+#================================================================
+
+And here is the usage functions to go with:
+
+
+
+  #== needed variables ==#
+SCRIPT_HEADSIZE=$(head -200 ${0} |grep -n "^# END_OF_HEADER" | cut -f1 -d:)
+SCRIPT_NAME="$(basename ${0})"
+
+  #== usage functions ==#
+usage() { printf "Usage: "; head -${SCRIPT_HEADSIZE:-99} ${0} | grep -e "^#+" | sed -e "s/^#+[ ]*//g" -e "s/\${SCRIPT_NAME}/${SCRIPT_NAME}/g" ; }
+usagefull() { head -${SCRIPT_HEADSIZE:-99} ${0} | grep -e "^#[%+-]" | sed -e "s/^#[%+-]//g" -e "s/\${SCRIPT_NAME}/${SCRIPT_NAME}/g" ; }
+scriptinfo() { head -${SCRIPT_HEADSIZE:-99} ${0} | grep -e "^#-" | sed -e "s/^#-//g" -e "s/\${SCRIPT_NAME}/${SCRIPT_NAME}/g"; }
+
+Here is what you should obtain:
+
+# Display help
+$ ./template.sh --help
+
+    SYNOPSIS
+    template.sh [-hv] [-o[file]] args ...
+
+    DESCRIPTION
+    This is a script template
+    to start any good shell script.
+
+    OPTIONS
+    -o [file], --output=[file]    Set log file (default=/dev/null)
+    use DEFAULT keyword to autoname file
+    The default value is /dev/null.
+    -t, --timelog                 Add timestamp to log ("+%y/%m/%d@%H:%M:%S")
+    -x, --ignorelock              Ignore if lock file exists
+    -h, --help                    Print this help
+    -v, --version                 Print script information
+
+    EXAMPLES
+    template.sh -o DEFAULT arg1 arg2
+
+    IMPLEMENTATION
+    version         template.sh (www.uxora.com) 0.0.4
+    author          Michel VONGVILAY
+    copyright       Copyright (c) http://www.uxora.com
+    license         GNU General Public License
+    script_id       12345
+
+# Display version info
+$ ./template.sh -v
+
+    IMPLEMENTATION
+    version         template.sh (www.uxora.com) 0.0.4
+    author          Michel VONGVILAY
+    copyright       Copyright (c) http://www.uxora.com
+    license         GNU General Public License
+    script_id       12345
+############################################################################
+
+My bash template is as below(set in my vim configuration):
+
+#!/bin/bash
+
+## DESCRIPTION: 
+
+## AUTHOR: $USER_FULLNAME
+
+declare -r SCRIPT_NAME=$(basename "$BASH_SOURCE" .sh)
+
+## exit the shell(default status code: 1) after printing the message to stderr
+bail() {
+    echo -ne "$1" >&2
+    exit ${2-1}
+} 
+
+## help message
+declare -r HELP_MSG="Usage: $SCRIPT_NAME [OPTION]... [ARG]...
+  -h    display this help and exit
+"
+
+## print the usage and exit the shell(default status code: 2)
+usage() {
+    declare status=2
+    if [[ "$1" =~ ^[0-9]+$ ]]; then
+        status=$1
+        shift
+    fi
+    bail "${1}$HELP_MSG" $status
+}
+
+while getopts ":h" opt; do
+    case $opt in
+        h)
+            usage 0
+            ;;
+        \?)
+            usage "Invalid option: -$OPTARG \n"
+            ;;
+    esac
+done
+
+shift $(($OPTIND - 1))
+[[ "$#" -lt 1 ]] && usage "Too few arguments\n"
+
+#==========MAIN CODE BELOW==========
+
+
+#################################################################################
+
+
+
+Enabling error detection makes it much easier to detect problems in the script early:
+
+set -o errexit
+
+Exit script on first error. That way you avoid continuing on to do something which depended on something earlier in the script, perhaps ending up with some weird system state.
+
+set -o nounset
+
+Treat references to unset variables as errors. Very important to avoid running things like rm -you_know_what "$var/" with an unset $var. If you know that the variable can be unset, and this is a safe situation, you can use ${var-value} to use a different value if it's unset or ${var:-value} to use a different value if it's unset or empty.
+
+set -o noclobber
+
+It's easy to make the mistake of inserting a > where you meant to insert <, and overwrite some file which you meant to read. If you need to clobber a file in your script, you can disable this before the relevant line and enable it again afterwards.
+
+set -o pipefail
+
+Use the first non-zero exit code (if any) of a set of piped command as the exit code of the full set of commands. This makes it easier to debug piped commands.
+
+shopt -s nullglob
+
+Avoid that your /foo/* glob is interpreted literally if there are no files matching that expression.
+
+You can combine all of these in two lines:
+
+set -o errexit -o nounset -o noclobber -o pipefail
+shopt -s nullglob
+
+###########################################################################################
+
+#!/bin/bash -       
+#title           :mkscript.sh
+#description     :This script will make a header for a bash script.
+#author          :your_name_here
+#date            :20110831
+#version         :0.3    
+#usage           :bash mkscript.sh
+#notes           :Vim and Emacs are needed to use this script.
+#bash_version    :4.1.5(1)-release
+#===============================================================================
+
+################################################################################################
+
+

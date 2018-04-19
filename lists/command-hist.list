@@ -1,0 +1,1000 @@
+  997  ./configure -LIBGLOG_CFLAGS
+  998  ./configure LIBGLOG_CFLAGS
+  999  ./configure --build LIBGLOG_CFLAGS
+ 1000  ls -la
+ 1001  cd config
+ 1002  ls -la
+ 1003  nano config.sub
+ 1004  nano compile
+ 1005  cd ..
+ 1006  ./configure --help
+ 1007  ./configure LIBGLOG_CFLAGS=TRUE
+ 1008  ./configure LIBGLOG_LIBS=TRUE
+ 1009  ./configure LIBGLOG_CFLAGS=FALSE
+ 1010  apt-get install lib
+ 1011  apt-get install libg
+ 1012  apt-get install libglog
+ 1013  apt-get install libglog-dev
+ 1014  apt-get install glog
+ 1015  apt-get install glog-vev
+ 1016  apt-get install glog-dev
+ 1017  apt-get install libgoogle-glog-dev
+ 1018  apt-get install libgflags-dev
+ 1019  ./configure
+ 1020  make
+ 1021  cd ..
+ 1022  rm -rf hiptext
+ 1023  ls -la
+ 1024  nano wget-log
+ 1025  su TheMacPC
+ 1026  apt-get install rage1
+ 1027  cd /usr/lib
+ 1028  ls -la
+ 1029  find -iname "hiptext*"
+ 1030  man find
+ 1031  find -iname "hiptext*" /
+ 1032  find / -iname "hiptext*" /
+ 1033  find / -iname "hiptext*"
+ 1034  find / -iname "hiptext"
+ 1035  find --help
+ 1036  man find
+ 1037  find / -name "*hiptext*" -noleaf
+ 1038  cd /home/TheMacPC/Downloads/hiptext-0.2/src
+ 1039  hiptext
+ 1040  ls -la
+ 1041  nano hiptext
+ 1042  cd hiptext
+ 1043  ls -la
+ 1044  hiptext
+ 1045  cd ..
+ 1046  ls -la
+ 1047  nano hiptext.cc
+ 1048  pkg-config hiptest
+ 1049  pkg-config hiptext
+ 1050  cd ..
+ 1051  ls -la
+ 1052  tail -n 500 README.md
+ 1053  apt-get install clang
+ 1054  apt-get install gcc
+ 1055  ./configure
+ 1056  ./configure --help
+ 1057  ./configure --build=BUILD
+ 1058  ls ~/bin
+ 1059  ./configure
+ 1060  make -j4
+ 1061  ls /etc/ssh
+ 1062  nano /etc/ssh/sshd-banner
+ 1063  nano motd
+ 1064  nano /etc/motd
+ 1065  tail -n 100 /var/log/messages
+ 1066  tail -n 100 /var/log/syslog
+ 1067  tail -f /var/log/syslog
+ 1068  tail -f -n 50 /var/log/syslog
+ 1069  cd /etc/ssh
+ 1070  nano sshd_config
+ 1071  systemctl restart ssh
+ 1072  systemctl restart ssh.service
+ 1073  systemctl status ssh.service
+ 1074  cd /etc
+ 1075  ls
+ 1076  restart ssh
+ 1077  cd ssh
+ 1078  ls
+ 1079  ssh-keygen -p -f ssh_host_rsa_key
+ 1080  systemctl restart ssh.service
+ 1081  ls -la
+ 1082  chmod 600 ssh_host_rsa_key.permissions
+ 1083  ls -la
+ 1084  chmod 600 ssh_host_rsa_key
+ 1085  chmod 640 ssh_host_rsa_key.permissions
+ 1086  ls -la
+ 1087  chmod 666 ssh_host_rsa_key.permissions
+ 1088  ls -la
+ 1089  chmod 660 ssh_host_rsa_key.permissions
+ 1090  ls -la
+ 1091  chmod 655 ssh_host_rsa_key.permissions
+ 1092  ls -la
+ 1093  chmod 644 ssh_host_rsa_key.permissions
+ 1094  ls -la
+ 1095  chmod 644 ssh_host_rsa_key
+ 1096  systemctl restart ssh.service
+ 1097  chmod 600 ssh_host_rsa_key.permissions
+ 1098  systemctl restart ssh.service
+ 1099  chmod 400 ssh_host_rsa_key.permissions
+ 1100  systemctl restart ssh.service
+ 1101  ls -la
+ 1102  chmod 400 ssh_host_rsa_key
+ 1103  systemctl restart ssh.service
+ 1104  chmod 600 ssh_host_rsa_key
+ 1105  systemctl restart ssh.service
+ 1106  ls -la
+ 1107  mv ssh_host_rsa_key ssh_host_rsa_key.old1
+ 1108  mv ssh_host_rsa_key.pub ssh_host_rsa_key.pub.old1
+ 1109  systemctl restart ssh.service
+ 1110  ls -la
+ 1111  systemctl stop sshdgenkeys.service
+ 1112  systemctl restart sshd.service
+ 1113  systemctl stop ssh.service
+ 1114  systemctl stop sshd.service
+ 1115  systemctl start ssh.service
+ 1116  /usr/bin/ssh-keygen -A
+ 1117  systemctl restart ssh.service
+ 1118  ls -la
+ 1119  nano ssh_host_rsa_key
+ 1120  tail -n 100 ssh_host_rsa_key
+ 1121  tail -n 100 ssh_host_rsa_key.pub
+ 1122  mv ssh_host_rsa_key.pub ssh_host_rsa_key.pub.old1
+ 1123  mv ssh_host_rsa_key ssh_host_rsa_key.old1
+ 1124  tail -n 100 ssh_host_rsa_key.pub
+ 1125  tail -n 100 /home/TheMacPC/.ssh/rsa_id
+ 1126  ls /home/TheMacPC/.ssh
+ 1127  tail -n 100 /home/TheMacPC/.ssh/id_rsa.pub
+ 1128  tail -n 100 /home/TheMacPC/.ssh/authorized_keys
+ 1129  nano sshd_config
+ 1130  tail ssh_host_rsa_key.pub
+ 1131  tail -n 100 ssh_host_rsa_key.pub
+ 1132  apt-get install a2png
+ 1133  apt-get install gimp
+ 1134  aalib
+ 1135  apt-get install aalib
+ 1136  open gimp
+ 1137  apt-get install ldnet
+ 1138  apt-get install dnet_ntoa
+ 1139  apt-get install dnet
+ 1140  apt-get install mousemask
+ 1141  apt-get install termattrs
+ 1142  apt-get install wredrawln
+ 1143  apt-get install redrawwin
+ 1144  apt-get install redraw
+ 1145  cd /usr/local/lib
+ 1146  ls -la
+ 1147  cd libaa.so.1
+ 1148  ls -la libaa.so.1
+ 1149  ls libaa.so.1.0.4
+ 1150  nano libaa.so.1.0.4
+ 1151  nano libaa.so.1
+ 1152  apt-get install libaa
+ 1153  apt-get install gcc
+ 1154  apt-get update
+ 1155  apt-get upgrade
+ 1156  apt-get dist-upgrade
+ 1157  apt-get update
+ 1158  apt-get upgrade
+ 1159  apt-get dist-upgrade
+ 1160  apt-get install libjpeg
+ 1161  apt-get install libart
+ 1162  aa_autoinit
+ 1163  aa_displayrecomended
+ 1164  aalib aa_autoinit
+ 1165  aalib
+ 1166  aview
+ 1167  ./configure
+ 1168  apt-get install autoconf
+ 1169  apt-get install aclocal
+ 1170  apt-get install automake
+ 1171  apt-get install autoheader
+ 1172  apt-get install makeinfo
+ 1173  cd ..
+ 1174  ls -la
+ 1175  cd aalib-1.4.0
+ 1176  ./configure
+ 1177  make
+ 1178  make install
+ 1179  aview
+ 1180  ls -la /usr/local/lib/libaa.so.1
+ 1181  chmod 644 /usr/local/lib/libaa.so.1
+ 1182  ls -la /usr/local/lib/libaa.so.1
+ 1183  aview
+ 1184  apt-get install autogen
+ 1185  apt-get install intltool
+ 1186  apt-get install libaa.so.1
+ 1187  apt-get install libaa
+ 1188  apt-get install libaa.so
+ 1189  wget ftp://195.220.108.108/linux/Mandriva/official/2006.0/x86_64/media/main/libaa1-1.4.0-0.rc5.14mdk.i586.rpm
+ 1190  rpm -i libaa
+ 1191  rpm
+ 1192  cd /usr/java
+ 1193  mkdir /usr/java
+ 1194  mv /home/TheMacPC/Downloads/jre-8u151-linux-x64.tar.gz /usr/java/
+ 1195  cd /usr/java
+ 1196  tar zxvf jre-8u151-linux-x64.tar.gz
+ 1197  sl
+ 1198  ls
+ 1199  cd jrel.8.0_151
+ 1200  cd jre1.8.0_151
+ 1201  ls -la
+ 1202  ls lib
+ 1203  ls -la lib
+ 1204  cd /home/TheMacPC/Downloads
+ 1205  ls -la
+ 1206  cd aalib-1.4.0
+ 1207  ./configure
+ 1208  ./config.status
+ 1209  aalib-config
+ 1210  make
+ 1211  make install
+ 1212  aalib
+ 1213  aview
+ 1214  cd /opt
+ 1215  ls -la
+ 1216  cd jre1.8.0_151
+ 1217  ls -la
+ 1218  ls plugin
+ 1219  ls lib
+ 1220  cd ..
+ 1221  ls -la
+ 1222  mv jre1.8.0_151 jrel.8.0_151.old
+ 1223  cd /usr/lib/mozilla
+ 1224  ls -la
+ 1225  cd plugins
+ 1226  ls -la
+ 1227  su TheMacPC
+ 1228  find / -name "gtest"
+ 1229  cd hiptext-master/gtest
+ 1230  cd gtest
+ 1231  ls -la
+ 1232  ./configure
+ 1233  cmake
+ 1234  cmake /home/TheMacPC/hiptext-0.2/gtest
+ 1235  make -f4
+ 1236  make
+ 1237  make install
+ 1238  cd ..
+ 1239  cmake /home/TheMacPC/hiptext-0.2
+ 1240  ls -la
+ 1241  cd test
+ 1242  ls -la
+ 1243  pixel_test
+ 1244  test
+ 1245  xterm256_test
+ 1246  cd ..
+ 1247  ls -la
+ 1248  Makefile
+ 1249  autogen.sh
+ 1250  autogen
+ 1251  balls.png
+ 1252  tail -n 500 config.status
+ 1253  tail -n 2000 config.status
+ 1254  tail -n 2000 config.log
+ 1255  rm /usr/lib/mozilla/plugins/libnpjp2.so
+ 1256  cd /usr/java
+ 1257  cd /usr
+ 1258  ls -la
+ 1259  cd /opt
+ 1260  ls -la
+ 1261  apt-get install vlc
+ 1262  apt list --installed
+ 1263  cd /home/TheMacPC
+ 1264  touch apt.list
+ 1265  apt list --installed >> /home/TheMacPC/apt.list
+ 1266  nano apt.list
+ 1267  cd Research
+ 1268  ls
+ 1269  cd research
+ 1270  ls
+ 1271  nano goodinfo.list
+ 1272  sudo apt-get install synaptic
+ 1273  synaptic
+ 1274  if config
+ 1275  ifconfig
+ 1276  wifi-honey TheCoracle
+ 1277  airmon-ng check kill
+ 1278  kill 596
+ 1279  airmon-ng check kill
+ 1280  NetworkManager
+ 1281  wlan0
+ 1282  ifconfig
+ 1283  rm -rf apt-list.list
+ 1284  touch apt-list.list
+ 1285  dpkg --get-selections > apt-list.list
+ 1286  ls -la
+ 1287  mkdir apt-list
+ 1288  mv apt-list.list apt-list
+ 1289  ls -la
+ 1290  cd apt-list
+ 1291  ls -la
+ 1292  cp -R /etc/apt/sources.list* /home/TheMacPC/apt-list/
+ 1293  apt-key exportall > /home/TheMacPC/apt-list/Repo.keys
+ 1294  ls -la
+ 1295  tail -n 5000 apt-list.list
+ 1296  ls -la
+ 1297  mv apt-list.list apt-list.log
+ 1298  cp /etc/apt/sources.list /home/TheMacPC/apt-list
+ 1299  ls -la
+ 1300  tail -n 5000 sources.list
+ 1301  tail -n 5000 sources.list~
+ 1302  cd sources.list.d
+ 1303  ls -la
+ 1304  cd ..
+ 1305  nano Repo.keys
+ 1306  nano apt-list.log
+ 1307  dpkg --get-selections | grep -v deinstall
+ 1308  dpkg --get-selections | grep postgres
+ 1309  comm -23 <(aptitude search '~i !~M' -F '%p' | sed "s/ *$//" | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)
+ 1310  ls /var/log/instller
+ 1311  ls /var/log
+ 1312  ls /var/log/installer
+ 1313  comm -23 <(aptitude search '~i !~M' -F '%p' | sed "s/ *$//" | sort -u) <(gzip -dc /var/log/installer/status.gz | sed -n 's/^Package: //p' | sort -u)
+ 1314  comm -23 <(aptitude search '~i !~M' -F '%p' | sed "s/ *$//" | sort -u) <(gzip -dc /var/log/installer/status | sed -n 's/^Package: //p' | sort -u)
+ 1315  comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/status | sed -n 's/^Package: //p' | sort -u)
+ 1316  apt-mark --help
+ 1317  comm -23 <(apt-mark showautol | sort -u) <(gzip -dc /var/log/installer/status | sed -n 's/^Package: //p' | sort -u)
+ 1318  comm -23 <(apt-mark showautol | sort -u) <(/var/log/installer/status | sed -n 's/^Package: //p' | sort -u)
+ 1319  comm -23 <(apt-mark showautol | sort -u) < (/var/log/installer/status | sed -n 's/^Package: //p' | sort -u)
+ 1320  comm -23 <(apt-mark showauto | sort -u) <(/var/log/installer/status | sed -n 's/^Package: //p' | sort -u)
+ 1321  dpkg-query -l
+ 1322  apt-get install git live-build cdebootstrap
+ 1323  apt-get install git live-build cdebootstrap --fix-missing
+ 1324  apt-get install curl live-build cdebootstrap --fix-missing
+ 1325  git clone git://git.kali.org/live-build-config.git
+ 1326  cd live.build-config
+ 1327  ls -la
+ 1328  cd live-build-config
+ 1329  ls -la
+ 1330  cd kali-build
+ 1331  cd kali-config
+ 1332  ls -la
+ 1333  cd ..
+ 1334  ls -la
+ 1335  cd kali-config
+ 1336  ls -la
+ 1337  cd variant-gnome
+ 1338  ls -la
+ 1339  cd package-lists
+ 1340  ls -la
+ 1341  cd kali.list.chroot
+ 1342  nano kali.list.chroot
+ 1343  cd ..
+ 1344  cd common/hooks
+ 1345  ls -la
+ 1346  cd live
+ 1347  ls -la
+ 1348  nano sleep.chroot
+ 1349  nano apt-list
+ 1350  nano apt.list
+ 1351  ls -la
+ 1352  nano apt-list.log
+ 1353  ls -la /var/cache/apt/archives
+ 1354  echo '#!/bin/bash' > restore
+ 1355  echo sudo apt-get install `grep Remove /var/log/apt/history.log | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'` >> restore
+ 1356  chmod +x restore 
+ 1357  ./restore
+ 1358  rm /var/lib/apt/lists/lock
+ 1359  echo '#/bin/bash' > restore
+ 1360  echo sudo apt-get install `grep Remove /var/log/apt/history.log | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'` >> restore
+ 1361  chmod +x restore
+ 1362  ./restore
+ 1363  sudo killall apt-get
+ 1364  ./restore
+ 1365  mv /var/cache/apt/archives/lock /var/cache/apt/archives/lock_bak
+ 1366  ./restore
+ 1367  aview
+ 1368  find / "libaa*"
+ 1369  aview
+ 1370  find /usr "libaa*"
+ 1371  aview
+ 1372  find /usr "libaa.so.1*"
+ 1373  aview
+ 1374  echo '#!/bin/bash' > restore
+ 1375  echo sudo apt-get install `grep Remove /var/log/apt/history.log | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'` >> restore
+ 1376  chmod +x restore 
+ 1377  ls -lah /usr/local
+ 1378  ls -la /usr/local
+ 1379  ls -la /usr/local/include
+ 1380  find /usr -name "aalib.h"
+ 1381  find /usr -name "libaa*"
+ 1382  ldd /usr/local/bin/* /usr/local/sbin/* | less +/libaa
+ 1383  LD_LIBRARY_PATH=/usr/lib aview --version
+ 1384  ldd /usr/local/lib/* /usr/local/lib/* | less +/libaa
+ 1385  ldd /usr/local/lib/* /usr/local/lib/* | less +/aalib
+ 1386  apt-get install libaa
+ 1387  apt-get install lib
+ 1388  apt-get install aa
+ 1389  apt-get install aalib
+ 1390  apt-get install aview
+ 1391  apt-get purge aview
+ 1392  apt-get autoremover aview
+ 1393  apt-get autoremove aview
+ 1394  apt-get install aview
+ 1395  aview
+ 1396  copy-router-config
+ 1397  figlet
+ 1398  figlet --help
+ 1399  figlest TheCoracle
+ 1400  figlet TheCoracle
+ 1401  jp2a Pictures/Stewie.jpg
+ 1402  jp2a /home/TheMacPC/Pictures/Stewie.jpg
+ 1403  jp2a /home/TheMacPC/Pictures/stewie.jpg
+ 1404  apt-get install libaa1
+ 1405  apt-get autoremove libaa1
+ 1406  apt-get install libaa1
+ 1407  killall apt-get
+ 1408  apt-get install libaa1
+ 1409  apt-get autoremove libaa1
+ 1410  ps ax | grep apt-get
+ 1411  kill 3746
+ 1412  kill 3847
+ 1413  apt-get install libaa1
+ 1414  ls
+ 1415  apt-get install kali-desktop-gnome
+ 1416  apt-get install archives
+ 1417  apt-get install apg
+ 1418  apt-get install totem
+ 1419  apt-get install zeitgeist-core
+ 1420  ls /var/cache/apt
+ 1421  ls /var/cache/apt/archives
+ 1422  cd /var/cache/apt/archives
+ 1423  kali-defaults_2017.3.1_all.deb
+ 1424  apt install kali-defaults_2017.3.1_all.deb
+ 1425  dpkg -i kali-defaults_2017.3.1_all.deb
+ 1426  dpkg -i gnome-software-common_3.26.1-2_all.deb   
+ 1427  lock
+ 1428  ls lock
+ 1429  cd lock
+ 1430  ls -la
+ 1431  ls -la lock
+ 1432  ls -la partial
+ 1433  cd partial
+ 1434  ls -la
+ 1435  cd ..
+ 1436  dpkg -i apt-file_3.1.4_all.deb
+ 1437  dpkg -i autoconf_2.69-11_all.deb
+ 1438  aview
+ 1439  apt-get -o Debug::pkgProblemResolver=yes aalib
+ 1440  apt-get -o Debug::pkgProblemResolver=yes libaa
+ 1441  find / -iname "aview*" -vv
+ 1442  man find
+ 1443  find -L -D / -iname "aview*"
+ 1444  find / -L -D -iname "aview*"
+ 1445  find / -D -iname "aview*"
+ 1446  find / -iname "aview*" -L -D
+ 1447  find -L -D
+ 1448  find -L / -iname "aview*"
+ 1449  find / -iname "aview*"
+ 1450  find / -iname "aalib*"
+ 1451  find / -iname "libaa*"
+ 1452  aview
+ 1453  mv /usr/local/lib/libaa.so.1 /usr/local/lib/libaa.so.1.orig
+ 1454  cp /home/TheMacPc/Downloads/aalib-1.4.0/src/.libs/libaa.so.1 /usr/local/lib/libaa.so.1
+ 1455  cp /home/TheMacPC/Downloads/aalib-1.4.0/src/.libs/libaa.so.1 /usr/local/lib/libaa.so.1
+ 1456  aview
+ 1457  mv /usr/local/lib/libaa.so.1.orig /usr/local/lib/libaa.so.1
+ 1458  aview --help
+ 1459  aview /home/TheMacPC/Pictures/stewie.jpg
+ 1460  aalib
+ 1461  ls -la
+ 1462  cd Downloads
+ 1463  ls -la
+ 1464  cd aalib-1.4.0
+ 1465  ls -la
+ 1466  nano configure.in
+ 1467  apt-get install -u fiji
+ 1468  apt-get install -u imagej
+ 1469  apt-get check -u
+ 1470  apt-get check
+ 1471  apt --fix-broken-install -u
+ 1472  apt --fix-broken install 
+ 1473  apt --fix-broken install aview
+ 1474  apt --fix-broken install aalib
+ 1475  apt-get clean -u
+ 1476  apt-get clean
+ 1477  apt-get autoclean -u
+ 1478  apt-get autoclean
+ 1479  apt-get update -u
+ 1480  apt-get -u update
+ 1481  apt-get -u upgrade
+ 1482  apt-get -u dist-update
+ 1483  apt-get -u dist-upgrade
+ 1484  apt-get source aview
+ 1485  su TheMacPC
+ 1486  ./install.sh
+ 1487  apt-get -u install sublime
+ 1488  apt-get -u install sublime-text
+ 1489  apt-get -u install sublime-text-3
+ 1490  apt-get -u install sublimetext
+ 1491  apt-get -u install sublimetext3
+ 1492  apt-get -u install synapse
+ 1493  apt-get -u install autokey
+ 1494  apt-get -u install autokey-gtk
+ 1495  apt-get -u install digikam
+ 1496  apt-get -u install wine
+ 1497  apt-get -u install joe
+ 1498  ls -la
+ 1499  joe restore
+ 1500  man joes
+ 1501  man joe
+ 1502  apt-get -u install audacity
+ 1503  apt-get -u install pidgin
+ 1504  apt-get -u install scudcloud
+ 1505  apt-get -u install slack
+ 1506  apt-get -u install testdisk
+ 1507  apt-get -u install timeshift
+ 1508  apt-get -u install backintime-qt
+ 1509  sudo add-apt-repository ppa:bit-team/stable
+ 1510  sudo apt-get update
+ 1511  sudo apt-get install backintime-qt4
+ 1512  sudo apt-get install photorec
+ 1513  sudo apt-get install ntsf3g
+ 1514  sudo apt-get install rsync
+ 1515  sudo apt-get install fsarchiver
+ 1516  sudo apt-get install partimage
+ 1517  sudo apt-get install ddrescue
+ 1518  sudo apt-get install ntfs-3g
+ 1519  sudo apt-get install sfdisk
+ 1520  sudo apt-get install sf-disk
+ 1521  sudo apt-get install memtest
+ 1522  sudo apt-get install mem-test
+ 1523  sudo apt-get install dban
+ 1524  sudo apt-get install aida
+ 1525  sudo apt-get install rsnap
+ 1526  sudo apt-get install rsnapshot
+ 1527  sudo apt-get install magicrescue
+ 1528  sudo apt-get install aff
+ 1529  sudo apt-get install afflib
+ 1530  sudo apt-get install cmospwd
+ 1531  sudo apt-get install afflibv3
+ 1532  sudo apt-get install affv3
+ 1533  sudo apt-get install affv4
+ 1534  sudo apt-get install aff
+ 1535  sudo apt-get install afflib-tools
+ 1536  sudo apt-get install pasco
+ 1537  sudo apt-get install openvpn
+ 1538  sudo apt-get install memtester
+ 1539  sudo apt-get install anbox
+ 1540  snap
+ 1541  sudo apt-get install sanps
+ 1542  sudo apt-get install snaps
+ 1543  sudo apt-get install snapd
+ 1544  sudo apt-get install mysql
+ 1545  sudo apt-get install speedcrunch
+ 1546  sudo apt-get install gdmap
+ 1547  sudo apt-get install nativefier
+ 1548  sudo apt-get install synaptic
+ 1549  sudo apt-get install exa
+ 1550  git clone https://github.com/ogham/exa.git
+ 1551  ls -la
+ 1552  cd exa
+ 1553  make
+ 1554  make install
+ 1555  ls -la
+ 1556  sudo apt-get install rust
+ 1557  curl https://sh.rustup.rs -sSf | sh
+ 1558  source /home/TheMacPC/.cargo/env
+ 1559  rust source /home/TheMacPC/.cargo/env
+ 1560  rustc source /home/TheMacPC/.cargo/env
+ 1561  cargo source /home/TheMacPC/.cargo/env
+ 1562  make install
+ 1563  cargo /home/TheMacPC/.cargo/env
+ 1564  ls -la /usr/bin
+ 1565  find -iname "cargo*"
+ 1566  find / -iname "cargo*" 
+ 1567  curl https://sh.rustup.rs -sSf | sh
+ 1568  /root/.cargo/bin /home/TheMacPC/.cargo/env
+ 1569  cp /root/.cargo/bin /home/TheMacPC/.cargo/env
+ 1570  cp -r /root/.cargo/bin /home/TheMacPC/.cargo/env
+ 1571  mkdir /home/TheMacPC/.cargo/env
+ 1572  mkdir /home/TheMacPC/.cargo
+ 1573  mkdir /home/TheMacPC/.cargo/env
+ 1574  cp -r /root/.cargo/bin /home/TheMacPC/.cargo/env/
+ 1575  ls /home/TheMacpC/.cargo/env
+ 1576  ls /home/TheMacPC/.cargo/env
+ 1577  make install
+ 1578  make
+ 1579  curl https://sh.rustup.rs -sSf | sh
+ 1580  su TheMacPC
+ 1581  ./install.sh
+ 1582  nano install.sh
+ 1583  ./install.sh
+ 1584  nano install.sh
+ 1585  ./install.sh
+ 1586  apt-repository
+ 1587  su TheMacPC
+ 1588  nano sshd_banner.ideas
+ 1589  nano sshd_banner
+ 1590  nano sshd_config
+ 1591  cd /etc
+ 1592  ls -la
+ 1593  find / -iname "printmod"
+ 1594  find / -iname "motd*"
+ 1595  ls -la
+ 1596  nano motd
+ 1597  systemctl restart ssh.service
+ 1598  systemctl restart sshd.service
+ 1599  nano motd
+ 1600  apt-get update && apt-cache search kali-linux
+ 1601  su TheMacPC
+ 1602  mv rm -rf suckit bitch
+ 1603  mv suckit bitch
+ 1604  nano /etc/motd
+ 1605  adduser harker
+ 1606  nano /etc/motd
+ 1607  rm -rf fuck
+ 1608  ls -la 
+ 1609  rm -rf suckit
+ 1610  su TheMacPC
+ 1611  systemctl ssh.service
+ 1612  systemctl restart ssh.service
+ 1613  systemctl restart sshd.service
+ 1614  nano /etc/ssh/sshd.config
+ 1615  nano /etc/ssh/sshd_config
+ 1616  su harker
+ 1617  cd /home/TheMacPC
+ 1618  apt-get install libaa1
+ 1619  echo sudo apt-get install `grep Remove /var/log/apt/history.log | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'` -30 >> restore
+ 1620  echo sudo apt-get install -30 `grep Remove /var/log/apt/history.log | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'` >> restore
+ 1621  echo -30 sudo apt-get install `grep Remove /var/log/apt/history.log -myime -30 | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'' >> restore
+ 1622  echo sudo apt-get install 'find /var/log/apt/history.log -name "*" -30' >> restore  
+ 1623  echo sudo apt-get install | find /var/log/apt/history.log -name "*" -30 >> restore  
+ 1624  find /var/log/apt/history.log -name "*" -30 >> restore  
+ 1625  find /var/log/apt/ -name '*' -30 >> restore  
+ 1626  find /var/log/apt/history.log -name "*" -mtime -30 >> restore  
+ 1627  echo sudo apt-get install | find /var/log/apt/history.log -name "*" -mtime -30 >> restore  
+ 1628  man grep
+ 1629  echo sudo apt-get install `grep Remove /var/log/apt/history.log -mtime -30 | tail -1 | sed -e 's|Remove: ||g' -e 's|([^)]*)||g' -e 's|:[^ ]* ||g' -e 's|,||g'`>> restore
+ 1630  sed -n '/Oct 22 10:29:00/ , /Nov 1 15:00:00/p'/var/log/apt/history.log >> restore
+ 1631  sed -n '/Oct 22 10:29:00/ , /Nov 1/p'/var/log/apt/history.log >> restore
+ 1632  sed -n '/sed -n '/Jun 17 13:39:54/ , /Jun 18 10:50:28/p'/ , /Nov 01 15:00:00/p'/var/log/apt/history.log >> restore
+ 1633  sed -n '/Oct 22 10:29:00/ , /Nov 01 15:00:00/p'
+ 1634  sed -n '/Oct 22 10:29:00/ , /Nov 01 15:00:00/p'/var/log/apt/history.log
+ 1635  sed -n '/Start-Date: 2017-10-22  18:30:36/ , /Start-Date: 2017-10-31  22:11:23/p'/var/log/apt/history.log >> restore
+ 1636  sed -n '/Start-Date: 2017-10-22  18:30:36/ , /Start-Date: 2017-10-31  22:11:23/ p'/var/log/apt/history.log >> restore
+ 1637  sed -n '/Start-Date: 2017-10-22  18:30:36/ , /Start-Date: 2017-10-31  22:11:23/p'/var/log/apt/history.log >> restore
+ 1638  sed -n '/Start-Date: 2017-10-22  18:30:36/ , /Start-Date: 2017-10-31  22:11:23/p' /var/log/apt/history.log >> restore
+ 1639  sed -n '/Start-Date: 2017-10-22  18:30:36/ , /Start-Date: 2017-10-31  22:11:23/p' /var/log/apt/history.log >> /home/TheMacPC/restore
+ 1640  aview &>/dev/null
+ 1641  echo $?
+ 1642  aalib &>/dev/null
+ 1643  echo $?
+ 1644  aalib
+ 1645  asldkfj &>/dev/null
+ 1646  aalib
+ 1647  asldkfj &>/dev/null
+ 1648  echo $?
+ 1649  ls -lae@R /home/TheMacPC > /home/TheMacPC/output.txt
+ 1650  ls -la@R /home/TheMacPC > /home/TheMacPC/output.txt
+ 1651  ls -laR /home/TheMacd /proc/sys/net/ipv4/
+ 1652  ls -la
+ 1653  nano ip_forward
+ 1654  nano ip_forward_use_pmtu
+ 1655  cd /
+ 1656  cd /root
+ 1657  ls -la
+ 1658  cd /
+ 1659  ls -la
+ 1660  cd etc
+ 1661  cd .ssh
+ 1662  ls -la
+ 1663  cd ssh
+ 1664  ls -la
+ 1665  cd /home/TheMacPC/.ssh
+ 1666  ls -la
+ 1667  cd ~
+ 1668  ls -la
+ 1669  ssh-keygen
+ 1670  cd .ssh
+ 1671  ls -la
+ 1672  nano id_rsa
+ 1673  nano id_rsa.pub
+ 1674  tail id_rsa.pub
+ 1675  update-rc.d
+ 1676  ls -la /etc
+ 1677  cd /etc/rc2.d
+ 1678  ls -la
+ 1679  nano /home/TheMacPC/.ssh/authorized_keys
+ 1680  cd /home/TheMacPC
+ 1681  ls -la
+ 1682  cd live-build-config
+ 1683  ls -la
+ 1684  cd kali-config
+ 1685  ls -la
+ 1686  cd common
+ 1687  ls -la
+ 1688  cd preseed
+ 1689  ls -la
+ 1690  cd kali.cfg.chroot
+ 1691  nano kali.cfg.chroot
+ 1692  mkpasswd
+ 1693  cd /usr/share/zoneinfo/
+ 1694  ls -la
+ 1695  cd america
+ 1696  cd America
+ 1697  ls -la
+ 1698  mkdir -p .ssh
+ 1699  cd ..
+ 1700  ls -la
+ 1701  mkdir -p etc/openvpn
+ 1702  ls -la
+ 1703  cp /root/.ssh/id_rsa.pub root/.ssh/authorized_keys
+ 1704  ls root/.ssh
+ 1705  nano authorized_keys
+ 1706  nano root/.ssh/authorized_keys
+ 1707  cd ..
+ 1708  ls -la
+ 1709  cd hooks
+ 1710  ls -la
+ 1711  cat << EOF >  ssh.chroot
+ 1712  #!/bin/bash
+ 1713  systemctl enable sshd.service
+ 1714  systemctl enable ssh.service
+ 1715  EOF
+ 1716  ls -la
+ 1717  nano ssh.chroot
+ 1718  cd live
+ 1719  ls -la
+ 1720  cd ..
+ 1721  cp ssh.chroot live/
+ 1722  ls -la live
+ 1723  cd ..
+ 1724  ls -la
+ 1725  cd preseed
+ 1726  ls -la
+ 1727  nano kali.cfg.chroot
+ 1728  cd ..
+ 1729  ls -la
+ 1730  cd ..
+ 1731  ls -la
+ 1732  cd variant-kde
+ 1733  ls -la
+ 1734  cd package-lists
+ 1735  ls -la
+ 1736  nano kali-list.chroot
+ 1737  nano kali.list.chroot
+ 1738  cd ..
+ 1739  cd..
+ 1740  cd common
+ 1741  ls -la
+ 1742  cd preseed
+ 1743  ls -la
+ 1744  nano kali.cfg.chroot
+ 1745  cd ..
+ 1746  ls -la
+ 1747  cd package-lists
+ 1748  ls -la
+ 1749  cd ..
+ 1750  ls -la
+ 1751  cd variant-kde
+ 1752  ls -la
+ 1753  cd package-lists
+ 1754  ls -la
+ 1755  nano kali.list.chroot
+ 1756  cd ..
+ 1757  ls -la
+ 1758  cd common
+ 1759  ls -la
+ 1760  cd hooks
+ 1761  ls -la
+ 1762  cd includes.chroot
+ 1763  cd ..
+ 1764  cd includes.chroot
+ 1765  ls -la
+ 1766  cd 
+ 1767  cd /home/TheMacPC/live-build-config/kali-config/common/
+ 1768  ls -la
+ 1769  cd includes.chroot
+ 1770  ls -la
+ 1771  cd ..
+ 1772  cd hooks
+ 1773  ls -la
+ 1774  mv ssh.chroot 01-start-ssh.chroot
+ 1775  chmod +x 01-start-ssh.chroot
+ 1776  cd ..
+ 1777  ls -la
+ 1778  cd ..
+ 1779  ls -la
+ 1780  cd ..
+ 1781  ls -la
+ 1782  cd config
+ 1783  ls -la
+ 1784  cd debian-install
+ 1785  cd debian-installer
+ 1786  ls -la
+ 1787  nano preseed.cfg
+ 1788  chmod +x preseed.cfg
+ 1789  nano preseed.cfg
+ 1790  ls -la
+ 1791  cd ..
+ 1792  ls -la
+ 1793  nano bootstrap
+ 1794  nano build
+ 1795  nano common
+ 1796  cd hooks
+ 1797  ls -la
+ 1798  cd live
+ 1799  ls -la
+ 1800  nano persistance-menu.binary
+ 1801  nano persistence-menu.binary
+ 1802  nano kali-hacks.chroot
+ 1803  nano forensic-menu.binary
+ 1804  cd ..
+ 1805  ls -la
+ 1806  nano ssh.chroot
+ 1807  cd ..
+ 1808  ls -la
+ 1809  cd includes.binary
+ 1810  ls -la
+ 1811  cd isolinux
+ 1812  ls -la
+ 1813  nano stdmenu.cfg
+ 1814  cd ..
+ 1815  ls -la
+ 1816  cd kali-config
+ 1817  ls -la
+ 1818  cd common
+ 1819  ls -la
+ 1820  cd preseed
+ 1821  ls -la
+ 1822  cp /home/TheMacPC/live-built-config/config/common/preseed/preseed.cfg ./
+ 1823  cp /home/TheMacPC/live-built-config/config/debian-installer/preseed.cfg ./
+ 1824  cp /home/TheMacPC/live-build-config/config/debian-installer/preseed.cfg ./
+ 1825  ls -la
+ 1826  cd ..
+ 1827  ls -la
+ 1828  cd includes.binary
+ 1829  ls -la
+ 1830  cd isolinux
+ 1831  ls -la
+ 1832  nano stdmenu
+ 1833  nano stdmenu.cfg
+ 1834  cd ..
+ 1835  cd isolinux
+ 1836  nano isolinux.cfg
+ 1837  ls -la
+ 1838  nano isolinux.cfg
+ 1839  rm -rf isolinux.cfg
+ 1840  cd ..
+ 1841  ls -la
+ 1842  cd ..
+ 1843  ls -la
+ 1844  cd hooks
+ 1845  ls -la
+ 1846  cd live
+ 1847  ls -la
+ 1848  nano persistence-menu.binary
+ 1849  nano unattended-menu.binary
+ 1850  nano persistence-menu.binary
+ 1851  nano unattended-menu.binary
+ 1852  nano persistence-menu.binary
+ 1853  nano unattended-menu.binary
+ 1854  nano persistence-menu.binary
+ 1855  nano unattended-menu.binary
+ 1856  nano persistence-menu.binary
+ 1857  nano unattended-menu.binary
+ 1858  nano persistence-menu.binary
+ 1859  nano unattended-menu.binary
+ 1860  nano persistence-menu.binary
+ 1861  nano unattended-menu.binary
+ 1862  nano persistence-menu.binary
+ 1863  nano unattended-menu.binary
+ 1864  cd ..
+ 1865  ls -la
+ 1866  cd includes.chroot
+ 1867  ls -la
+ 1868  cd root
+ 1869  ls -la
+ 1870  cd ..
+ 1871  cd hooks
+ 1872  ls -la
+ 1873  nano 02-unattended-boot.binary
+ 1874  cd live
+ 1875  ls -la
+ 1876  nano unattended-menu.binary
+ 1877  cd ..
+ 1878  ls -la
+ 1879  nano 02-unattended-boot.binary
+ 1880  chmod +x 02-unattended-boot.binary
+ 1881  cp 02-unattended-boot.binary live/
+ 1882  cd live
+ 1883  ls -la
+ 1884  rm -rf unattended-menu.binary
+ 1885  cd ..
+ 1886  ls -la
+ 1887  cp 01-start-ssh.chroot live/
+ 1888  cd live
+ 1889  ls -la
+ 1890  nano ssh.chroot
+ 1891  nano 01-start-ssh.chroot
+ 1892  nano ssh.chroot
+ 1893  rm -rf ssh.chroot
+ 1894  cd ..
+ 1895  ls -la
+ 1896  cd includes.installer
+ 1897  ls -la
+ 1898  cd ..
+ 1899  ls -la
+ 1900  ./build.sh --variant kde --verbose
+ 1901  nano build.sh
+ 1902  cd
+ 1903  cd /home/TheMacPC
+ 1904  ls -la
+ 1905  cd live-build-confige
+ 1906  cd live-build-config
+ 1907  ls -la
+ 1908  cd kali-config
+ 1909  ls -la
+ 1910  cd variant-light
+ 1911  ls -la
+ 1912  cd packagel-lists
+ 1913  ls -la
+ 1914  cd package-lists
+ 1915  ls -la
+ 1916  nano kali.list.chroot
+ 1917  cd ..
+ 1918  ls -la
+ 1919  ./build.sh --distribution kali-ligh --verbose
+ 1920  ./build.sh --distribution kali-rolling --variant light --verbose
+ 1921  ls -la
+ 1922  apt-get install brasero
+ 1923  fdisk -l
+ 1924  ls -la
+ 1925  cd images
+ 1926  ls -la
+ 1927  dd if=kali-linux-light-rolling-amd64.iso of=/dev/sdc bs=512k
+ 1928  fdisk -l
+ 1929  end=7gb
+ 1930  read start _ < <(du -bcm kali-linux-light-rolling-amd64.iso | tail -1); echo $start
+ 1931  parted /dev/sdc mkpart primary $start $end
+ 1932  fdisk -l
+ 1933  mkfs.ext3 -L persistence /dev/sdc3
+ 1934  fdisk -l
+ 1935  dd if=kali-linux-light-rolling-amd64.iso of=/dev/sdc bs=512k
+ 1936  fdisk -l
+ 1937  dd if=kali-linux-light-rolling-amd64.iso of=/dev/sdb bs=512k
+ 1938  fdisk -l
+ 1939  dd if=kali-linux-light-rolling-amd64.iso of=/dev/sdc2 bs=512k
+ 1940  fdisk -l
+ 1941  fdisk unmount /dev/sdc
+ 1942  fdisk -l
+ 1943  unmount /dev/sdc
+ 1944  umount /dev/sdc
+ 1945  fdisk -l
+ 1946  umount /dev/sdc
+ 1947  umount /dev/sdc1
+ 1948  umount /dev/sdc
+ 1949  fdisk -l
+ 1950  umount /dev/sdc
+ 1951  umount /dev/sdc1
+ 1952  umount Disk /dev/sdc1
+ 1953  umount Disk /dev/sdc
+ 1954  man umount
+ 1955  umount -A /dev/sdc
+ 1956  fdisk -l
+ 1957  umount -A /dev/sdc
+ 1958  dd if=kali-linux-light-rolling-amd64.iso of=/dev/sdc bs=1m
+ 1959  dd if=kali-linux-light-rolling-amd64.iso of=/dev/sdc bs=1024k
+ 1960  ls -la
+ 1961  fdisk -l
+ 1962  mkdir -p /mnt/my_usb
+ 1963  mount /dev/sdb3 /mnt/my_usb
+ 1964  echo "/ union" > /mnt/my_usb/persistence.conf
+ 1965  umount /dev/sdb3
+ 1966  cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb3
+ 1967  mount /dev/sdb3 /mnt/my_usb
+ 1968  cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb3
+ 1969  umount /dev/sdb3
+ 1970  cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb3
+ 1971  cryptsetup luksOpen /dev/sdb3 /mnt/my_usb
+ 1972  mount /dev/sdb3 /mnt/my_usb
+ 1973  cryptsetup luksOpen /dev/sdb3 /mnt/my_usb
+ 1974  fdisk -l
+ 1975  cryptsetup luksOpen /dev/sdb3 /mnt/my_usb
+ 1976  cryptsetup luksOpen /dev/sdb3 my_usb
+ 1977  mkfs.ext3 -L persistence /dev/mapper/my_usb
+ 1978  e2label /dev/mapper/my_usb persistence
+ 1979  mkdir -p /mnt/my_usb
+ 1980  mount /dev/mapper/my_usb /mnt/my_usb
+ 1981  echo "/ union" > /mnt/my_usb/persistence.conf
+ 1982  umount /dev/mapper/my_usb
+ 1983  apt-get update
+ 1984  apt-get upgrade
+ 1985  apt-get dist-upgrade
+ 1986  apt-get dist-update
+ 1987  cd live-build-config
+ 1988  ls -la
+ 1989  cd /
+ 1990  ls -la
+ 1991  cd recovered-data
+ 1992  find . -name "*.torrent" -type f -delete
+ 1993  find . -name "*.exe" -type f -delete
+ 1994  cd /media/TheMacPC
+ 1995  umount Backup
+ 1996  history > command-hist.list

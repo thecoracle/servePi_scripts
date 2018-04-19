@@ -1,0 +1,51 @@
+<div ng-include="'/static/components/navbar/navbar.html'"></div>
+
+<div class="container-fluid">
+
+    <h1>Captures</h1>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="card">
+                <div class="card-content card-size-3">
+                    <h2> Total Captures: </h2>
+
+                    <h3 class="text-center">{{ realTimeCaptures.length + capturesCount }}</h3>
+
+                    <p class="text-center">unique captures uploaded</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="card">
+                <div class="card-content card-size-3">
+                    <div class="card-content card-size-3">
+                        <a ng-href="captures/add">
+                            <div class="device-btn-add"><span class="fa fa-plus"></span></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-striped">
+                <tr>
+                    <th>UUID</th>
+                    <th>File</th>
+                    <th>Lat / Lng</th>
+                    <th>Uploaded</th>
+                </tr>
+                <tr ng-repeat="capture in captures">
+                    <td>{{ capture.uuid }}</td>
+                    <td><a ng-href="{{ capture.file }}">{{ capture.file }}</a></td>
+                    <td>{{ capture.latitude }} / {{ capture.longitude }}</td>
+                    <td>{{ capture.creation_timestamp | date : 'dd.MM.yyyy - HH:mm' }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>

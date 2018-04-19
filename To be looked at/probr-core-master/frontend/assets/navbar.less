@@ -1,0 +1,113 @@
+@activeNavBarBG: @brand-gray-dark;
+@activeNavBarFontColor: @brand-primary;
+
+.navbar {
+
+  padding-top: 0px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: @activeNavBarBG;
+
+  .navbar-brand {
+    padding-left: 15px;
+    color: @brand-primary;
+
+    font-family: 'Nunito';
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    img {
+      height: 25px;
+      margin-top: -3px;
+    }
+  }
+
+  .active {
+    color: @activeNavBarFontColor;
+    background-color: @brand-gray-dark;
+  }
+
+  .navbar-collapse {
+    border-color: @activeNavBarBG;
+  }
+
+  .navbar-nav > .active > a {
+    color: @brand-primary;
+    background-color: @brand-gray-dark;
+  }
+
+  .navbar-nav > .active > a:hover {
+    color: @brand-primary;
+    background-color: @brand-gray-dark;
+  }
+
+  .navbar-nav > .active > a:focus {
+    color: @brand-primary;
+    background-color: @brand-gray-dark;
+  }
+
+  .navbar-nav {
+    background-color: @brand-gray-light;
+    margin-top: 0px;
+
+    font-family: 'Nunito';
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    li {
+      a {
+        color: @brand-gray-light;
+        background-color: @brand-gray-dark;
+      }
+
+      a:hover {
+        color: @brand-primary;
+        background-color: @brand-gray-dark;
+      }
+
+      a:focus {
+        color: @brand-primary;
+        background-color: @brand-gray-dark;
+      }
+    }
+
+  }
+
+  .navbar-toggle {
+    border: none;
+    background-color: transparent;
+
+    .icon-bar {
+      background-color: @brand-primary;
+    }
+
+  }
+
+  .navbar-toggle:focus {
+    background-color: transparent;
+  }
+
+  .navbar-toggle:hover {
+    background-color: transparent;
+
+    .icon-bar {
+      background-color: @activeNavBarBG;
+    }
+
+  }
+
+}
+
+.navbar-default .navbar-text {
+  font-family: 'Nunito';
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: @brand-primary-light;
+  line-height: 20px;
+}
